@@ -61,4 +61,7 @@ typings/
 **/bin/Release
 **/obj
 *.suo
+*.user
 *.dtbcache.v2
+
+/SimpleFrontend/bin/Microsoft.NodejsTools.WebRole.dll
