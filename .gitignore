@@ -61,3 +61,4 @@ typings/
 **/bin/Release
 **/obj
 *.suo
+*.dtbcache.v2
