@@ -57,3 +57,7 @@ typings/
 
 # dotenv environment variables file
 .env
+**/bin/Debug
+**/bin/Release
+**/obj
+*.suo
