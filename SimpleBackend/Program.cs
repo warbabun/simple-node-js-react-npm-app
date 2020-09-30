@@ -6,7 +6,7 @@ namespace SimpleBackend
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! and trigger");
+            Console.WriteLine("Hello World! and trigger triggered");
             Console.ReadKey();
         }
     }
