@@ -2,13 +2,13 @@ pipeline {
     agent {
         docker {
             image 'node:12-alpine' 
-            args '-p 3000:3000 --privileged --network=jenkins'
+            args '--privileged=true --net host -v /var/run/dbus:/var/run/dbus -p 3000:3000'
         }
     }
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install --loglevel verbose' 
+                sh 'npm install' 
             }
         }
     }
